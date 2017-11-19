@@ -100,7 +100,7 @@ class Board():
                 character.bag += 1
                 print("object picked up: ", character.bag)
                 self.screen.blit(self.wall, (int(self.x / 15)*14, 0))
-                self.screen.blit(self.font.render('Object(s) picked up : ' + str(character.bag), True, (255, 255, 255)), (340, 10))
+                self.screen.blit(self.font.render('Object(s) picked up : ' + str(character.bag), True, (255, 255, 255)), (320, 10))
                 pygame.display.update()
 
     def check_character_bag(self, character):
