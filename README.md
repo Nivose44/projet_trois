@@ -2,8 +2,8 @@
 
 To be able to play that game you need to:
     
-	1.install virtualenv by entering in your command prompt: pip install virtualenv
-    
+	1.create a virtualenv to receive the program by entering in your command prompt: virtualenv name_of_your_directory
+          then move inside the virtualenv with: cd name_of_your_repository and activate it with: Scripts\activate
 	2.enter in your command prompt: git clone https://github.com/Nivose44/projet_trois.git
     
 	3.move inside that directory by entering in your command prompt: cd projet_trois
