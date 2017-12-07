@@ -22,4 +22,4 @@ To be able to play that game you need to:
                     
 			py -3 game_macgyver.py -e text   (to use the textual version)
                     
-			py -3 game_macgyver.py -e pygame   (to use the textual version
+			py -3 game_macgyver.py -e pygame   (to use the pygame version)
