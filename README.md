@@ -9,10 +9,10 @@ I follow the [PEP8 style guide for Python](http://www.python.org/dev/peps/pep-00
 ## Screenshots
 
 Textual version:
-![alt text]()
+![Screenshot](MacGyverTextVersion.png)
 
 Pygame version:
-![alt text]()
+![Screenshot](MacGyverPygame.png)
 
 
 ## Library used
