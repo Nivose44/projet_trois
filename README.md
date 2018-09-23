@@ -1,4 +1,17 @@
-﻿# projet_trois : help macgyver to escape
+# Project Title
+
+Help MacGyver to escape: in this little game, Macgyver is supposed to pick up all the objects in the labyrinth before reaching the guardian if he wants to win.
+
+## Code style
+
+I follow the [PEP8 style guide for Python](http://www.python.org/dev/peps/pep-0008/).
+
+## Screenshots
+
+## Library used
+[Pygame](https://www.pygame.org/news).
+
+## Installation
 
 To be able to play that game you need to:
     
