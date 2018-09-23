@@ -8,6 +8,13 @@ I follow the [PEP8 style guide for Python](http://www.python.org/dev/peps/pep-00
 
 ## Screenshots
 
+Textual version:
+![alt text]()
+
+Pygame version:
+![alt text]()
+
+
 ## Library used
 [Pygame](https://www.pygame.org/news).
 
@@ -15,24 +22,24 @@ I follow the [PEP8 style guide for Python](http://www.python.org/dev/peps/pep-00
 
 To be able to play that game you need to:
     
-	1.create a virtualenv to receive the program by entering in your command prompt: virtualenv name_of_your_directory
+1. create a virtualenv to receive the program by entering in your command prompt: virtualenv name_of_your_directory
           then move inside the virtualenv with: cd name_of_your_repository and activate it with: Scripts\activate
-	2.enter in your command prompt: git clone https://github.com/Nivose44/projet_trois.git
+1. enter in your command prompt: git clone https://github.com/Nivose44/projet_trois.git
     
-	3.move inside that directory by entering in your command prompt: cd projet_trois
+1. move inside that directory by entering in your command prompt: cd projet_trois
     
-	4.install the dependencies by entering in the command prompt: pip install -r requirements.txt
+1. install the dependencies by entering in the command prompt: pip install -r requirements.txt
     
-	5.Then still in the command prompt, you can choose if you want to play the textual version or the pygame version of the game:
+1. Then still in the command prompt, you can choose if you want to play the textual version or the pygame version of the game:
+
+	for macos/linux:
+                    
+		python3 game_macgyver.py -e text   (to use the textual version)
+                    
+		python3 game_macgyver.py -e pygame (to use the pygame version)
                 
-		for macos/linux:
+	for windows:
                     
-			python3 game_macgyver.py -e text   (to use the textual version)
+		py -3 game_macgyver.py -e text   (to use the textual version)
                     
-			python3 game_macgyver.py -e pygame (to use the pygame version)
-                
-		for windows:
-                    
-			py -3 game_macgyver.py -e text   (to use the textual version)
-                    
-			py -3 game_macgyver.py -e pygame   (to use the pygame version)
+		py -3 game_macgyver.py -e pygame   (to use the pygame version)
